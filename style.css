@@ -1,4 +1,5 @@
- body{
+
+body{
     margin:0px;
     padding:0px;
  }
@@ -16,15 +17,13 @@
  }
  .top-bannar-btn{
     text-decoration:none;
-    background-color: rgb(245, 9, 9);
+    background-color: rgba(245, 9, 9, 0.589);
     color:rgb(247, 237, 237);
     padding:17px 35px;
     border-radius: 15px;
     margin-top:19px;
     display:inline-block;
     font-weight: bold;
-    
-
  }
  h1{
     margin:0px;
@@ -34,4 +33,23 @@
     font-size:22px;
      
  }
- 
+ /*****Only section style here******/
+ section{
+    margin-bottom:120px;
+ }
+ /******donate money section******/
+
+ #donate-money{
+    display:flex;
+    justify-content: center;
+    
+ }
+ #donate-money div{
+    width:120px;
+    height: 120px;
+    border: 1px solid red;
+    margin:0px 12px;
+    font-size :34px;
+    font-weight: bold;
+    background-color: aliceblue;
+ }

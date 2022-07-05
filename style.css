@@ -1,0 +1,37 @@
+ body{
+    margin:0px;
+    padding:0px;
+ }
+ #top-bannar{
+    width:100vw;
+    height:100vh;
+    background-image:url(images/donation13.jpg);
+    background-size: cover;
+    border: 1px solid rgb(245, 241, 241);
+ }
+ .top-bannar-description{
+   color:white;
+   text-align: center;
+   padding-top:136px;
+ }
+ .top-bannar-btn{
+    text-decoration:none;
+    background-color: rgb(245, 9, 9);
+    color:rgb(247, 237, 237);
+    padding:17px 35px;
+    border-radius: 15px;
+    margin-top:19px;
+    display:inline-block;
+    font-weight: bold;
+    
+
+ }
+ h1{
+    margin:0px;
+    font-size: 67px;
+ }
+ h4{
+    font-size:22px;
+     
+ }
+ 

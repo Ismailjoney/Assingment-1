@@ -15,7 +15,7 @@ body{
    text-align: center;
    padding-top:136px;
  }
- .top-bannar-btn{
+ .donate-btn{
     text-decoration:none;
     background-color: rgba(245, 9, 9, 0.589);
     color:rgb(247, 237, 237);
@@ -38,18 +38,42 @@ body{
     margin-bottom:120px;
  }
  /******donate money section******/
-
+ .Donate{
+    text-align: center;
+ }
  #donate-money{
     display:flex;
     justify-content: center;
     
  }
+ #donate-money{
+    margin-top:39px;
+ }
  #donate-money div{
+  
     width:120px;
     height: 120px;
-    border: 1px solid red;
     margin:0px 12px;
     font-size :34px;
     font-weight: bold;
     background-color: aliceblue;
  }
+ .active{
+    border:2px solid red;
+ }
+ h2{
+    font-size: 34px;
+    font-weight:bold;
+ }
+ .select-donate {
+    margin-top:32px;
+ }
+ .select-donate input{
+    text-align: center;
+    width:700px;
+    border:none;
+    font-size: 22px;
+    border-bottom: 1px solid rgb(107, 101, 101);
+ }
+  
+ 

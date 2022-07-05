@@ -1,14 +1,14 @@
-
 body{
     margin:0px;
     padding:0px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
  }
  #top-bannar{
     width:100vw;
     height:100vh;
     background-image:url(images/donation13.jpg);
     background-size: cover;
-    border: 1px solid rgb(245, 241, 241);
  }
  .top-bannar-description{
    color:white;
@@ -30,17 +30,14 @@ body{
     font-size: 67px;
  }
  h4{
-    font-size:22px;
-     
+    font-size:22px;   
  }
  /*****Only section style here******/
  section{
     margin-bottom:120px;
- }
- /******donate money section******/
- .Donate{
     text-align: center;
  }
+ /******donate money section******/
  #donate-money{
     display:flex;
     justify-content: center;
@@ -83,7 +80,6 @@ body{
   }
   .donate-planing-zone div{
     padding:19px 9px;
-    border:1px solid red;
     margin:0px 20px;
     width:300px;
     height:290px
@@ -97,4 +93,57 @@ body{
  .tomato{
     background-color:rgb(219, 157, 146);
  }
+ /***********************************************/
+ .image-gallary{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+ }
+ .image-gallary div{
+    width:300px;
+    height:250px;
+    margin: 3px;
+ }
+ .image-gallary div img{
+     width:100%;
+     height:87%;
+ }
  
+ .email-input-area{
+    margin:75px 0px;
+    padding:16px 5px;
+    width:380px;
+ }
+ .subscribe-btn{
+    text-decoration: none;
+    padding:16px 35px;
+    border:1px solid red;
+    margin-left:0px;
+    background-color: rgba(235, 45, 45, 0.842);
+    color:white;
+ }
+ .updates-input-area{
+    margin-top:60px;
+ }
+ .total-input-area{
+    margin:0 auto;
+    width:854px;
+    height:200px;
+    background-color:rgb(202, 123, 109);
+ }
+ footer {
+    background-color: black;
+    color:white;
+    height:230px;
+ }
+ footer #footer-area{
+    width:300px;
+    height:90px;
+    margin:0 auto;
+    text-align: center;
+    padding:49px;
+    font-style: italic;
+    color:brown;
+    
+     
+ }
